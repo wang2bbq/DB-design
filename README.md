@@ -1,8 +1,14 @@
 # DB-design
 Design a comprehensive database for a new dental practice to help run their operation smoothly.
 
+1.conceptual Entity-Relational (ER) diagram
+   - tool: Lucidchart (browser-based)
+   - notation: Crow's Foot Notation
+
+
+
 Business understanding:
-The owners plan to take a loan (of $300,000) from a local bank, to launch the business - the loan (plus interest) would need to be paid off in installments that would span 10 years.
+- The owners plan to take a loan (of $300,000) from a local bank, to launch the business - the loan (plus interest) would need to be paid off in installments that would span 10 years.
 Startup costs include furniture, dental equipment, software (for scheduling, billing etc), supplies, training, etc.
 Staff that need to be hired include front office workers, dental hygienists, regular dentists, periodontists, endodontists, orthodontists and dental surgeons. The medical professionals have licenses that need to be kept up to date [https://www.dbc.ca.gov/licensees/dds/renewals.shtml]; the business needs to track this.
 The business hopes to service around 100 patients. Each patient's billing record consists of their insurance information (patient ID, insurance provider name, insurance subscriber ID, insurance coverage type ("savings plan"), amount of insurance coverage), and payment details (amount owed, amount paid by insurance, amount paid by the patient); their medical record would consist of procedures (eg teeth cleaning), treatments (eg gum disease) and surgeries (eg tooth extraction).
@@ -14,7 +20,3 @@ The owners plan to lease a medical building near a major hospital - there is a m
 Supplies are restocked every month - everything from needles to drugs to paper towels. There are also other other monthly operating costs - facilities cleaning, utilities, food in the breakout room, etc.
 Each month, the owners would want to see a report that contains expenditure and income so that they can assess profit or loss.
 When their business takes off, the owners have grand visions of using a data driven approach (analytics) to maximize their ROI.
-
-1. conceptual Entity-Relational (ER) diagram
-   - tool: Lucidchart (browser-based)
-   - notation: Crow's Foot Notation
